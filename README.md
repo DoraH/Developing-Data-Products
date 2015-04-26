@@ -7,4 +7,5 @@ For the codes, please refer to "server.R" and "ui.R" in this repository.
 
 The application link can be found here -> https://dorah.shinyapps.io/BMI-Risk/
 
-The presentation using Rstudio Presenter can be found here -> http://dorah.github.io/Developing-Data-Products/RStudio%20Presenter#/
+The presentation using Rstudio Presenter can be found here ->
+http://dorah.github.io/Developing-Data-Products/RStudio%20Presenter#/
