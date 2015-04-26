@@ -1,0 +1,53 @@
+Know Your Body Mass Index (BMI), Know Your Risk
+========================================================
+author: DoraH
+date: April 26th, 2015
+Developing Data Products Course Project
+
+Introduction
+========================================================
+
+For this Developing Data Products course project, a relatively simple Body Mass Index (BMI) calculator is created using the Shiny application. 
+
+User will only need to enter their weight and height. Click on "Submit" and their BMI will be calculated. Depending on your BMI, the diagnostic together with the associate risk will also be populated.
+
+What is BMI?
+========================================================
+
+Body Mass Index (BMI) is a simple index of weight-for-height that is commonly used to classify underweight, overweight and obesity in adults. It is defined as the weight in kilograms divided by the square of the height in metres.
+
+Below are the International Classification according to the BMI of an adult by World Health Organization (WHO):
+
+- BMI <18.50 : Underweight
+- BMI [18.50 - 24.99] : Normal range
+- BMI [25.00 - 29.99] : Overweight
+- BMI >=30.00 : Obese
+
+How is BMI Calculated?
+========================================================
+
+By using the following formula:
+
+BMI = weight(kilograms) / height(metres)^2
+
+Example:
+
+```r
+weight <- 60
+height <- 1.6
+BMI <- weight / height^2
+BMI
+```
+
+```
+[1] 23.4375
+```
+
+Screenshot of the BMI Calculator
+====================================
+
+![Project Screenshot](screenshot.png)
+ 
+<small>To access -> https://dorah.shinyapps.io/BMI-Risk/ </small>   
+<small>Codes -> https://github.com/DoraH/Developing-Data-Products </small>
+
